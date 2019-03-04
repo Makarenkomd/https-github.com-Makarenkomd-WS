@@ -15,6 +15,18 @@ namespace MainScreen
         public FormMainScreen()
         {
             InitializeComponent();
+            showPicture();
+        }
+        void showPicture()
+        {
+            pictureBox1.Image = Image.FromFile("images/1.jpg");
+            pictureBox2.Image = Image.FromFile("images/2.jpg");
+            pictureBox3.Image = Image.FromFile("images/3.jpg");
+        }
+
+        private void buttonRight_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
