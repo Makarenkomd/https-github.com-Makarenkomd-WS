@@ -207,6 +207,7 @@
             this.buttonLeft.Text = "<";
             this.buttonLeft.UseVisualStyleBackColor = true;
             this.buttonLeft.UseWaitCursor = true;
+            this.buttonLeft.Click += new System.EventHandler(this.buttonLeft_Click);
             // 
             // pictureBox2
             // 
