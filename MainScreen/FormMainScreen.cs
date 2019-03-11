@@ -12,9 +12,21 @@ namespace MainScreen
 {
     public partial class FormMainScreen : Form
     {
+        Slider sl;
         public FormMainScreen()
         {
             InitializeComponent();
+            sl = new Slider("images", new List<PictureBox> { pictureBox1, pictureBox2, pictureBox3});
+        }
+      
+        private void buttonLeft_Click(object sender, EventArgs e)
+        {
+            sl.slideLeft();
+        }
+
+        private void buttonRight_Click(object sender, EventArgs e)
+        {
+            sl.slideRight();
         }
     }
 }
