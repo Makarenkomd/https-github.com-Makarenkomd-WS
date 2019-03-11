@@ -51,6 +51,7 @@
     <Compile Include="FormMainScreen.Designer.cs">
       <DependentUpon>FormMainScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="historyNBA.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Slider.cs" />
