@@ -51,6 +51,12 @@
     <Compile Include="FormMainScreen.Designer.cs">
       <DependentUpon>FormMainScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTeamsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeamsMain.Designer.cs">
+      <DependentUpon>FormTeamsMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormVisitorMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     <Compile Include="Slider.cs" />
     <EmbeddedResource Include="FormMainScreen.resx">
       <DependentUpon>FormMainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeamsMain.resx">
+      <DependentUpon>FormTeamsMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVisitorMain.resx">
       <DependentUpon>FormVisitorMain.cs</DependentUpon>
