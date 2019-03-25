@@ -29,5 +29,11 @@ namespace MainScreen
         {
             sl.slideRight();
         }
+
+        private void buttonVisitor_Click(object sender, EventArgs e)
+        {
+            FormVisitorMain fv = new FormVisitorMain();
+            fv.ShowDialog();
+        }
     }
 }
